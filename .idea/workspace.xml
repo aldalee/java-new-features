@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81a53327-e652-49d9-9a65-97e50c7146b9" name="Changes" comment="Stream流操作初体验">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/class01_test/Code02_GetStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
     "jdk.selected.JAVA_MODULE": "17"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Code02_GetStream">
     <configuration name="Code01_FindName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="class01_test.Code01_FindName" />
       <module name="stream" />
@@ -59,8 +58,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code02_GetStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class01_test.Code02_GetStream" />
+      <module name="stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class01_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code02_GetStream" />
         <item itemvalue="Application.Code01_FindName" />
       </list>
     </recent_temporary>
@@ -73,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664952900359</updated>
-      <workItem from="1664952902098" duration="2281000" />
+      <workItem from="1664952902098" duration="6463000" />
     </task>
     <task id="LOCAL-00001" summary="Stream流操作初体验">
       <created>1664954709661</created>
@@ -82,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664954709661</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&#10;initial commit">
+      <created>1664955213510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664955213510</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Stream流操作初体验">
+      <created>1664955433329</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664955433329</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +127,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="&#10;initial commit" />
     <MESSAGE value="Stream流操作初体验" />
     <option name="LAST_COMMIT_MESSAGE" value="Stream流操作初体验" />
   </component>
