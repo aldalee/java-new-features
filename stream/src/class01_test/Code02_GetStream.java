@@ -7,9 +7,9 @@ import java.util.stream.Stream;
  * 获取流
  * java.util.stream.Stream<T>是Java8新加入的最常用的流接口。（不是函数式接口！！！）
  * 1、所有的Collection集合都可以通过stream默认方法获取流；
- * default Stream<E> stream()
+ *      default Stream<E> stream()
  * 2、Stream接口的静态方法of可以获取数组对应的流：
- * static <T> Stream<T> of(T... values)
+ *      static <T> Stream<T> of(T... values)
  * @author HuanyuLee
  * @date 2022/10/5
  */
