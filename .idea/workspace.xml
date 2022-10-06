@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81a53327-e652-49d9-9a65-97e50c7146b9" name="Changes" comment="获取Stream流">
-      <change afterPath="$PROJECT_DIR$/stream/src/class02_api_Intermediate/Code01_Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/class02_api_Intermediate/Code02_Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/class02_api_Intermediate/Code03_Limit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/class02_api_Intermediate/Code04_Skip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/class02_api_Intermediate/Code05_Concat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/class03_api_terminal/Code01_ForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/class03_api_terminal/Code02_Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/class03_api_terminal/Code03_Collect.java" afterDir="false" />
+    <list default="true" id="81a53327-e652-49d9-9a65-97e50c7146b9" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/lambda/src/class01_test/Code01_LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/class01_test/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/class01_test/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/class01_test/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,22 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "28384e",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;28384e&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Code05_Concat">
-    <configuration name="Code02_Count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class03_api_terminal.Code02_Count" />
-      <module name="stream" />
+}</component>
+  <component name="RunManager" selected="Application.Code01_LambdaTest">
+    <configuration name="Code01_LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class01_test.Code01_LambdaTest" />
+      <module name="lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class03_api_terminal.*" />
+          <option name="PATTERN" value="class01_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code01_LambdaTest" />
         <item itemvalue="Application.Code05_Concat" />
         <item itemvalue="Application.Code04_Skip" />
         <item itemvalue="Application.Code03_Limit" />
         <item itemvalue="Application.Code03_Collect" />
-        <item itemvalue="Application.Code02_Count" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +133,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664952900359</updated>
-      <workItem from="1664952902098" duration="13107000" />
+      <workItem from="1664952902098" duration="13946000" />
+      <workItem from="1665017360618" duration="1988000" />
     </task>
     <task id="LOCAL-00001" summary="Stream流操作初体验">
       <created>1664954709661</created>
@@ -181,7 +178,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664964255604</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Stream流中间操作">
+      <created>1664981543743</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664981543743</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Stream流终结操作">
+      <created>1664981593987</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664981593987</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initial commit">
+      <created>1664981663828</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664981663828</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,8 +219,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&#10;initial commit" />
     <MESSAGE value="Stream流操作初体验" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="获取Stream流" />
-    <option name="LAST_COMMIT_MESSAGE" value="获取Stream流" />
+    <MESSAGE value="Stream流中间操作" />
+    <MESSAGE value="Stream流终结操作" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
