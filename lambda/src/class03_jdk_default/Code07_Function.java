@@ -75,8 +75,9 @@ public class Code07_Function {
         // 求一阶导数
         Integer[] C1 = d.apply(C);
         showX(C1);
-        Integer[] finalC = getSecondDerivative(d, d, C);
-        showX(finalC);
+        // 求二阶导数
+        Integer[] C2 = getSecondDerivative(d, d, C);
+        showX(C2);
         // 求三阶导数
         Integer[] C3 = d.andThen(d.andThen(d)).apply(C);
         showX(C3);
